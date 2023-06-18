@@ -11,7 +11,7 @@ function Info() {
   useEffect(() => {
     setTimeout(() => {
       setIsClose(true);
-    }, 4000);
+    }, 6000);
   }, []);
 
   return (

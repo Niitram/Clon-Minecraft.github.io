@@ -14,6 +14,7 @@ function Ground() {
 
   const handleClickGround = (event) => {
     event.stopPropagation();
+    if (event.altKey) return;
     const [x, y, z] = Object.values(event.point).map((n) => Math.ceil(n));
     addCube(x, y, z);
   };
