@@ -8,11 +8,11 @@ function Info() {
     setIsClose(true);
   };
 
-  /* useEffect(() => {
+  useEffect(() => {
     setTimeout(() => {
       setIsClose(true);
     }, 4000);
-  }, []); */
+  }, []);
 
   return (
     <div className={`${styles.container}${isClose ? styles.close : ""}`}>
