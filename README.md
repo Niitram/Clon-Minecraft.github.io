@@ -26,8 +26,8 @@ Asegúrate de tener instalado lo siguiente:
 
 - Vite
 - Node.js
-- React ![React](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
-- ThreeJs ![ThreeJs](https://threejs.org/files/Docs/Dist/ThreeJSLogo.png)
+- React
+- ThreeJs
 - Zustand
 
 ¡Gracias por tu interés en mi Clon de Minecraft! Espero que te haya gustado. Si tienes alguna pregunta adicional, no dudes en hacerla. 😊
