@@ -16,7 +16,10 @@ function Info() {
 
   return (
     <div className={`${styles.container}${isClose ? styles.close : ""}`}>
-      <button className={styles.closeBtn} onClick={handleClose}>
+      <button
+        className={`${styles.closeBtn}${isClose ? styles.close : ""}`}
+        onClick={handleClose}
+      >
         x
       </button>
       <h2 className={styles.title}>Controls</h2>
