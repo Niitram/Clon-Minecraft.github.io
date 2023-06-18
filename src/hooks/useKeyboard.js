@@ -8,9 +8,11 @@ const ACTIONS_KEYBOARD_MAP = {
   "Space": "jump",
   "Digit1": "dirt",
   "Digit2": "glass",
-  "Digit3": "grass",
-  "Digit4": "log",
-  "Digit5": "wood",
+  "Digit3": "gold",
+  "Digit4": "grass",
+  "Digit5": "log",
+  "Digit6": "stone",
+  "Digit7": "wood",
 }
 
 export const useKeyboard = () => {
@@ -25,6 +27,8 @@ export const useKeyboard = () => {
     glass: false,
     wood: false,
     log: false,
+    stone: false,
+    gold: false,
   })
 
   useEffect(() => {

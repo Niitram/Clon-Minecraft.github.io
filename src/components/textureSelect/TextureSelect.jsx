@@ -9,7 +9,7 @@ function TextureSelect() {
     state.setTexture,
   ]);
 
-  const { dirt, grass, glass, wood, log } = useKeyboard();
+  const { dirt, grass, glass, wood, log, stone, gold } = useKeyboard();
 
   useEffect(() => {
     const options = {
@@ -18,6 +18,8 @@ function TextureSelect() {
       dirt,
       log,
       wood,
+      stone,
+      gold,
     };
 
     const selectedTexture = Object.entries(options).find(
@@ -25,14 +27,13 @@ function TextureSelect() {
     );
     if (selectedTexture) {
       const [textureName] = selectedTexture;
-
       setTexture(textureName);
     }
-  }, [dirt, grass, glass, wood, log]);
-
+  }, [dirt, grass, glass, wood, log, stone, gold]);
   return (
     <div className="texture-select">
       {Object.entries(images).map(([imgKey, img]) => {
+        console.log(imgKey.replace("Img", ""));
         return (
           <img
             key={imgKey}

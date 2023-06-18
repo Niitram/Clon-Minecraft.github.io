@@ -38,7 +38,6 @@ body{
 
 .texture-select{
   background-color: rgba(255, 228, 196, 0.405);
-  padding: 16px;
   margin: 0;
   border: solid 3px rgb(41, 40, 40);
   position: absolute;
@@ -46,17 +45,17 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  gap: 5px;
   flex-wrap: wrap;
 }
 
 .texture-select img{
   width: 80px;
+  padding: 5px;
   image-rendering: pixelated;
-  border: 2px solid rgba(255, 255, 255, 0.289);
+  border: 10px ridge #767578;
 }
 
 .texture-select img.selected{
-  border-color:  green;
+  border-color:  #b9b9ba;
   scale: 1.1;
 }
