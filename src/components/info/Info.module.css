@@ -1,0 +1,125 @@
+.container{
+  width: 600px;
+  background-color: rgba(149, 144, 144, 0.733);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+}
+.title{
+  margin: 0;
+  padding: 10px;
+  background-color: #CCCCCC;
+  font-family: 'Minecrafter', sans-serif;
+}
+.close{
+  display: none;
+}
+
+.closeBtn{
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #838080;
+  border: none;
+  background-color: transparent;
+}
+.moveTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  background-color: #CCCCCC;
+}
+.moveContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-left: 10px solid #CCCCCC;
+  border-right: 10px solid #CCCCCC;
+}
+.moveLeft{
+  height: 65px;
+  width: 100px;
+  position: relative;
+}
+.moveLeftLeft, .moveLeftTop, .moveLeftBack, .moveLeftRight{
+  font-size: 20px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.moveLeftLeft{
+  left: 0;
+  bottom: 0;
+}
+.moveLeftTop{
+  right: 35%;
+  top: 0;
+}
+.moveLeftBack{
+  right: 35%;
+  bottom: 0;
+}
+.moveLeftRight{
+  right: 0;
+  bottom: 0;
+}
+.clickContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+}
+.clickLeft{
+  width: 50px;
+  height: 50px;
+  background-image: url("../../assets/images/left-click-26.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.clickLeftInfo{
+  font-size: 12px;
+}
+
+.containerClickDelete{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jumpContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-left: 10px solid #CCCCCC;
+  border-right: 10px solid #CCCCCC;
+  border-bottom: 20px solid #CCCCCC;
+}
+.jumpInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+}
+.spaceBar{
+  width: 100px;
+  height: 20px;
+  background-color: #ccccccbe;
+  border: 5px solid black;
+}
